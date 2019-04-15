@@ -9,4 +9,5 @@ RUN     echo "Launching containers" && \
         kompose --file ./compose/app.yaml up && \
         echo "Finished setup" 
         
+        
 #CMD ["/bin/bash", "-c", "top"]
