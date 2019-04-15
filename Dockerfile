@@ -6,7 +6,7 @@ WORKDIR /home/app/microkube/
 # # # 
 USER app
 RUN     echo "Launching containers" && \
-        ls -l &&
+        ls -l && \
         pwd && \
         kompose --file ./compose/app.yaml up && \
         echo "Finished setup" 
