@@ -8,6 +8,7 @@ USER app
 RUN     echo "Launching containers" && \
         ls -l && \
         pwd && \
+        ls -lstra ./compose/ && \
         kompose --file ./compose/app.yaml up && \
         echo "Finished setup" 
         
