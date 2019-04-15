@@ -11,5 +11,6 @@ RUN     echo "Launching containers" && \
         ls -lstra ./compose/ && \
         echo "Finished setup" 
         
+        
 
 #CMD ["/bin/bash", "-c", "top"]
