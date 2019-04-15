@@ -3,7 +3,6 @@ FROM docker.bluelight.limited:5000/bluelightltd/microkube-install-image
 
 WORKDIR /home/app/microkube/
 
-
 # # # 
 USER app
 RUN     echo "Launching containers" && \
