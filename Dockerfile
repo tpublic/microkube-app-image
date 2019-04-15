@@ -1,4 +1,4 @@
-FROM docker.bluelight.limited:5000/bluelightltd/microkube-install-image
+FROM docker.bluelight.limited:5000/bluelightltd/microkube-setup-image
 
 
 WORKDIR /home/app/microkube/
