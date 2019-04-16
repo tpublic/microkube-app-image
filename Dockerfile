@@ -5,11 +5,9 @@ WORKDIR /home/app/microkube/
 
 # # # 
 USER root
-RUN     echo "Launching containers" && \
-        ls -l && \
+RUN     echo "Begin pre-launch" && \
         pwd && \
-        ls -lstra ./compose/ && \
-        echo "Finished setup" 
+        echo "End   pre-launch" 
         
 
 
