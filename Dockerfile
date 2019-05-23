@@ -7,6 +7,7 @@ WORKDIR /home/app/microkube/
 USER root
 RUN     echo "Begin pre-launch" && \
         pwd && \
+        ls -l && \
         echo "End   pre-launch" 
         
 
