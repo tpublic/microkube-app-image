@@ -10,7 +10,7 @@ RUN     echo "Begin pre-launch" && \
         echo "lanched" > status && \
         ls -l && \
         ls -l config/ && \
-        ls -l config/gateway/ && \
+        ls -l config/gateway/  && \
         echo "End   pre-launch" 
         
 
